@@ -14,6 +14,10 @@
 		F9709A8A214F2AF6009DEC43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9709A88214F2AF6009DEC43 /* LaunchScreen.storyboard */; };
 		F9709A95214F2AF7009DEC43 /* MentorBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9709A94214F2AF7009DEC43 /* MentorBookTests.swift */; };
 		F9709AA0214F2AF7009DEC43 /* MentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9709A9F214F2AF7009DEC43 /* MentorBookUITests.swift */; };
+		F9709AAE214F2C9E009DEC43 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9709AAD214F2C9E009DEC43 /* Mentor.swift */; };
+		F9709AB2214F2FBD009DEC43 /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9709AAF214F2FBC009DEC43 /* ryo.jpg */; };
+		F9709AB3214F2FBD009DEC43 /* taithi.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F9709AB0214F2FBC009DEC43 /* taithi.JPG */; };
+		F9709AB4214F2FBD009DEC43 /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9709AB1214F2FBC009DEC43 /* nagata.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		F9709A9B214F2AF7009DEC43 /* MentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9709A9F214F2AF7009DEC43 /* MentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookUITests.swift; sourceTree = "<group>"; };
 		F9709AA1214F2AF7009DEC43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9709AAD214F2C9E009DEC43 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
+		F9709AAF214F2FBC009DEC43 /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		F9709AB0214F2FBC009DEC43 /* taithi.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.JPG; sourceTree = "<group>"; };
+		F9709AB1214F2FBC009DEC43 /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				F9709A86214F2AF6009DEC43 /* Assets.xcassets */,
 				F9709A88214F2AF6009DEC43 /* LaunchScreen.storyboard */,
 				F9709A8B214F2AF6009DEC43 /* Info.plist */,
+				F9709AAD214F2C9E009DEC43 /* Mentor.swift */,
+				F9709AB1214F2FBC009DEC43 /* nagata.jpg */,
+				F9709AAF214F2FBC009DEC43 /* ryo.jpg */,
+				F9709AB0214F2FBC009DEC43 /* taithi.JPG */,
 			);
 			path = MentorBook;
 			sourceTree = "<group>";
@@ -229,9 +241,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9709AB2214F2FBD009DEC43 /* ryo.jpg in Resources */,
+				F9709AB4214F2FBD009DEC43 /* nagata.jpg in Resources */,
 				F9709A8A214F2AF6009DEC43 /* LaunchScreen.storyboard in Resources */,
 				F9709A87214F2AF6009DEC43 /* Assets.xcassets in Resources */,
 				F9709A85214F2AF5009DEC43 /* Main.storyboard in Resources */,
+				F9709AB3214F2FBD009DEC43 /* taithi.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9709AAE214F2C9E009DEC43 /* Mentor.swift in Sources */,
 				F9709A82214F2AF5009DEC43 /* ViewController.swift in Sources */,
 				F9709A80214F2AF5009DEC43 /* AppDelegate.swift in Sources */,
 			);
